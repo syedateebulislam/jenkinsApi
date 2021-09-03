@@ -22,7 +22,11 @@ public class ReadFileData {
 		Object obj;
 		
 		try {
-
+			
+			/*
+			 * standalone jar path : "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes"
+			 * STS editor path:	"src//main//resources//jenkinsAPIData.json"
+			 */
 			obj = new JSONParser().parse(new FileReader("src//main//resources//jenkinsAPIData_API.json"));
 			JSONObject jo_reader = (JSONObject) obj;
 		    JSONArray ja_reader = (JSONArray) jo_reader.get("jenkins");

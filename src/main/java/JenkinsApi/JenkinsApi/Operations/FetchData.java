@@ -45,7 +45,10 @@ public class FetchData {
 		PrintWriter pw;
 		
 		try {
-			
+			/*
+			 * standalone jar path : "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes"
+			 * STS editor path:	"src//main//resources//jenkinsAPIData.json"
+			 */
 			pw = new PrintWriter("src//main//resources//jenkinsAPIData.json");
 			pw.write(jo_writer.toJSONString());
 			
@@ -122,6 +125,10 @@ public class FetchData {
 						JSONObject jo_writer = new JSONObject();
 						JSONArray ja_writer = new JSONArray();
 					    
+						/*
+						 * standalone jar path : "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes"
+						 * STS editor path:	"src//main//resources//jenkinsAPIData.json"
+						 */
 						Object obj = new JSONParser().parse(new FileReader("src//main//resources//jenkinsAPIData.json"));
 				        
 						JSONObject jo_reader = (JSONObject) obj;
@@ -189,6 +196,10 @@ public class FetchData {
 						
 						jo_writer.put("jenkins", ja_writer);
 						
+						/*
+						 * standalone jar path : "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes"
+						 * STS editor path:	"src//main//resources//jenkinsAPIData.json"
+						 */
 						PrintWriter pw = new PrintWriter("src//main//resources//jenkinsAPIData.json");
 						pw.write(jo_writer.toJSONString());
 						
