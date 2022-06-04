@@ -1,0 +1,3224 @@
+{
+	"total": 94,
+	"p": 1,
+	"ps": 100,
+	"paging": {
+		"pageIndex": 1,
+		"pageSize": 100,
+		"total": 94
+	},
+	"effortTotal": 582,
+	"debtTotal": 582,
+	"issues": [
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBJ",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 3,
+			"hash": "943d54ba3e8812437c4d26ef8aa263f8",
+			"textRange": {
+				"startLine": 3,
+				"endLine": 3,
+				"startOffset": 0,
+				"endOffset": 20
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.io.File'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBI",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "93c61b39cd8256fedcd28ffbee938342",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 0,
+				"endOffset": 25
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unnecessary import: same package classes are always implicitly imported.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBH",
+			"rule": "squid:S00101",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 9,
+			"hash": "0297d1d1372d99668d8e875f08f5619a",
+			"textRange": {
+				"startLine": 9,
+				"endLine": 9,
+				"startOffset": 13,
+				"endOffset": 29
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBK",
+			"rule": "squid:S4823",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 10,
+			"hash": "6e7f90d1218d4cf7cce90e6a59c982af",
+			"textRange": {
+				"startLine": 10,
+				"endLine": 10,
+				"startOffset": 25,
+				"endOffset": 38
+			},
+			"flows": [
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+							"textRange": {
+								"startLine": 19,
+								"endLine": 19,
+								"startOffset": 22,
+								"endOffset": 26
+							}
+						}
+					]
+				}
+			],
+			"status": "TO_REVIEW",
+			"message": "Make sure that command line arguments are used safely here.",
+			"author": "",
+			"tags": [
+				"cwe",
+				"owasp-a1",
+				"sans-top25-insecure"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBL",
+			"rule": "squid:S1135",
+			"severity": "INFO",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 11,
+			"hash": "36364ec9aa2f0995d283c1c6a92d2e5c",
+			"textRange": {
+				"startLine": 11,
+				"endLine": 11,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Complete the task associated to this TODO comment.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBM",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 18,
+			"hash": "3f76877de89a69ebe46664fa56d4d3fc",
+			"textRange": {
+				"startLine": 18,
+				"endLine": 18,
+				"startOffset": 3,
+				"endOffset": 13
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Im_PjhnSt0pmBN",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"project": "my:abc",
+			"line": 22,
+			"hash": "fd3c63306f520af1a06b965563ea339b",
+			"textRange": {
+				"startLine": 22,
+				"endLine": 22,
+				"startOffset": 3,
+				"endOffset": 13
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBA",
+			"rule": "squid:RedundantThrowsDeclarationCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 10,
+			"hash": "d8da7342ef348a9465fbd30330f8255e",
+			"textRange": {
+				"startLine": 10,
+				"endLine": 10,
+				"startOffset": 47,
+				"endOffset": 68
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"clumsy",
+				"error-handling",
+				"redundant",
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBB",
+			"rule": "squid:S1135",
+			"severity": "INFO",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 11,
+			"hash": "36364ec9aa2f0995d283c1c6a92d2e5c",
+			"textRange": {
+				"startLine": 11,
+				"endLine": 11,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Complete the task associated to this TODO comment.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBD",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 12,
+			"hash": "0d84b5ba4b118f807376987b499f35a9",
+			"textRange": {
+				"startLine": 12,
+				"endLine": 12,
+				"startOffset": 0,
+				"endOffset": 42
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBE",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 17,
+			"hash": "eceb214e7d819debee6116eea8601a6f",
+			"textRange": {
+				"startLine": 17,
+				"endLine": 17,
+				"startOffset": 0,
+				"endOffset": 21
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBC",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 35,
+			"hash": "bd5cd5c98ce6a31bee279e3683024359",
+			"textRange": {
+				"startLine": 35,
+				"endLine": 35,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBF",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 36,
+			"hash": "74eb7c6cfe4fb3f932b987fb4a4dd213",
+			"textRange": {
+				"startLine": 36,
+				"endLine": 36,
+				"startOffset": 0,
+				"endOffset": 43
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8At_PjhnSt0pmBG",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code1.java",
+			"project": "my:abc",
+			"line": 38,
+			"hash": "203f219b63d767adf772e08d61d395a0",
+			"textRange": {
+				"startLine": 38,
+				"endLine": 38,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCY",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 4,
+			"hash": "943d54ba3e8812437c4d26ef8aa263f8",
+			"textRange": {
+				"startLine": 4,
+				"endLine": 4,
+				"startOffset": 0,
+				"endOffset": 20
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.io.File'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCX",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 9,
+			"hash": "93c61b39cd8256fedcd28ffbee938342",
+			"textRange": {
+				"startLine": 9,
+				"endLine": 9,
+				"startOffset": 0,
+				"endOffset": 25
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unnecessary import: same package classes are always implicitly imported.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCa",
+			"rule": "squid:S1135",
+			"severity": "INFO",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 14,
+			"hash": "36364ec9aa2f0995d283c1c6a92d2e5c",
+			"textRange": {
+				"startLine": 14,
+				"endLine": 14,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Complete the task associated to this TODO comment.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCb",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 15,
+			"hash": "517712bd031ab8f9fc9e0fd918e3f8f7",
+			"textRange": {
+				"startLine": 15,
+				"endLine": 15,
+				"startOffset": 0,
+				"endOffset": 58
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCc",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 18,
+			"hash": "b2d47a5b79f4185922775cae8441ecdb",
+			"textRange": {
+				"startLine": 18,
+				"endLine": 18,
+				"startOffset": 0,
+				"endOffset": 74
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCd",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 20,
+			"hash": "3c7e9a927e945a84d2ef113bd5eb49c2",
+			"textRange": {
+				"startLine": 20,
+				"endLine": 20,
+				"startOffset": 0,
+				"endOffset": 30
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NX_PjhnSt0pmCZ",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Code2.java",
+			"project": "my:abc",
+			"line": 27,
+			"hash": "72442617b7af5f30554635e17535474c",
+			"textRange": {
+				"startLine": 27,
+				"endLine": 27,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Je_PjhnSt0pmBQ",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/FileHandling.java",
+			"project": "my:abc",
+			"line": 10,
+			"hash": "7453edd922f6f1ad0276170047885a11",
+			"textRange": {
+				"startLine": 10,
+				"endLine": 10,
+				"startOffset": 0,
+				"endOffset": 76
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Je_PjhnSt0pmBO",
+			"rule": "squid:S1854",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/FileHandling.java",
+			"project": "my:abc",
+			"line": 26,
+			"hash": "ce7d8c6ea1ab72792f53b17cef282539",
+			"textRange": {
+				"startLine": 26,
+				"endLine": 26,
+				"startOffset": 7,
+				"endOffset": 28
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this useless assignment to local variable \"str\".",
+			"effort": "15min",
+			"debt": "15min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Je_PjhnSt0pmBP",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/FileHandling.java",
+			"project": "my:abc",
+			"line": 28,
+			"hash": "bee0874342df2002f3968196b7fa4568",
+			"textRange": {
+				"startLine": 28,
+				"endLine": 28,
+				"startOffset": 4,
+				"endOffset": 14
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBU",
+			"rule": "squid:S2245",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 10,
+			"hash": "94a9e1ec9680b78ebf0e0c10b196854f",
+			"textRange": {
+				"startLine": 10,
+				"endLine": 10,
+				"startOffset": 26,
+				"endOffset": 32
+			},
+			"flows": [],
+			"status": "TO_REVIEW",
+			"message": "Make sure that using this pseudorandom number generator is safe here.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"owasp-a3"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBR",
+			"rule": "squid:S2189",
+			"severity": "BLOCKER",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 14,
+			"hash": "6679fa07d5cd0b8180e541cc97b31026",
+			"textRange": {
+				"startLine": 14,
+				"endLine": 37,
+				"startOffset": 8,
+				"endOffset": 9
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Add an end condition to this loop.",
+			"effort": "15min",
+			"debt": "15min",
+			"author": "",
+			"tags": [
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "BUG",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBS",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 15,
+			"hash": "e31a5af8c9632dd33b6627de17e284fe",
+			"textRange": {
+				"startLine": 15,
+				"endLine": 15,
+				"startOffset": 13,
+				"endOffset": 29
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBT",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 16,
+			"hash": "412b5608b865b9f51a17689c7c8e7ea9",
+			"textRange": {
+				"startLine": 16,
+				"endLine": 16,
+				"startOffset": 16,
+				"endOffset": 26
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBV",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 28,
+			"hash": "fa736c27b4f70a8ef4f15362d105572f",
+			"textRange": {
+				"startLine": 28,
+				"endLine": 28,
+				"startOffset": 16,
+				"endOffset": 26
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8J-_PjhnSt0pmBW",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Hal.java",
+			"project": "my:abc",
+			"line": 34,
+			"hash": "e2a0299785f8b8114255bdc93ea07183",
+			"textRange": {
+				"startLine": 34,
+				"endLine": 34,
+				"startOffset": 16,
+				"endOffset": 26
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8KW_PjhnSt0pmBY",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/MousePtr.java",
+			"project": "my:abc",
+			"line": 3,
+			"hash": "d892b2e05c35e7d4698a1ed3afc95687",
+			"textRange": {
+				"startLine": 3,
+				"endLine": 3,
+				"startOffset": 0,
+				"endOffset": 22
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.awt.Event'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8KW_PjhnSt0pmBZ",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/MousePtr.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "03a2f82b085d9d47a7e854c1bf2b99c5",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 0,
+				"endOffset": 30
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'javafx.event.EventType'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8KW_PjhnSt0pmBX",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/MousePtr.java",
+			"project": "my:abc",
+			"line": 8,
+			"hash": "c06d95e925ccedeafb0eb52e7490608b",
+			"textRange": {
+				"startLine": 8,
+				"endLine": 8,
+				"startOffset": 0,
+				"endOffset": 37
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'javafx.scene.input.MouseEvent'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8KW_PjhnSt0pmBa",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/MousePtr.java",
+			"project": "my:abc",
+			"line": 16,
+			"hash": "373ca07ff792b408cf69fee890da9c0a",
+			"textRange": {
+				"startLine": 16,
+				"endLine": 16,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NH_PjhnSt0pmCV",
+			"rule": "squid:S1135",
+			"severity": "INFO",
+			"component": "my:abc:src/abc/MouseTrace.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "36364ec9aa2f0995d283c1c6a92d2e5c",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Complete the task associated to this TODO comment.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8NH_PjhnSt0pmCW",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/MouseTrace.java",
+			"project": "my:abc",
+			"line": 15,
+			"hash": "1a65a9cb694f152e3ec7e18bafe76b03",
+			"textRange": {
+				"startLine": 15,
+				"endLine": 15,
+				"startOffset": 3,
+				"endOffset": 13
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCA",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 6,
+			"hash": "ba7ac47751dcbaed7aa4cbcb6b6e1acb",
+			"textRange": {
+				"startLine": 6,
+				"endLine": 6,
+				"startOffset": 0,
+				"endOffset": 31
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.io.FileInputStream'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCB",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "5cb6e4d8f3e7b56a26deff4676cba0ab",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 0,
+				"endOffset": 37
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.io.FileNotFoundException'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB_",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 8,
+			"hash": "8f984e97d8d06b8fd8760cfdee403599",
+			"textRange": {
+				"startLine": 8,
+				"endLine": 8,
+				"startOffset": 0,
+				"endOffset": 32
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'java.io.FileOutputStream'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCC",
+			"rule": "squid:UselessImportCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 14,
+			"hash": "e50ccf4614c590efa2bc0676f3cead42",
+			"textRange": {
+				"startLine": 14,
+				"endLine": 14,
+				"startOffset": 0,
+				"endOffset": 67
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Remove this unused import 'org.openqa.selenium.remote.server.commandhandler.UploadFile'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCE",
+			"rule": "squid:S4823",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 18,
+			"hash": "592bccc4002cf3dfc6991fcccb0be68e",
+			"textRange": {
+				"startLine": 18,
+				"endLine": 18,
+				"startOffset": 25,
+				"endOffset": 38
+			},
+			"flows": [
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 24,
+								"endLine": 24,
+								"startOffset": 15,
+								"endOffset": 19
+							}
+						}
+					]
+				}
+			],
+			"status": "TO_REVIEW",
+			"message": "Make sure that command line arguments are used safely here.",
+			"author": "",
+			"tags": [
+				"cwe",
+				"owasp-a1",
+				"sans-top25-insecure"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCF",
+			"rule": "squid:S3776",
+			"severity": "CRITICAL",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 18,
+			"hash": "592bccc4002cf3dfc6991fcccb0be68e",
+			"textRange": {
+				"startLine": 18,
+				"endLine": 18,
+				"startOffset": 20,
+				"endOffset": 24
+			},
+			"flows": [
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 24,
+								"endLine": 24,
+								"startOffset": 2,
+								"endOffset": 5
+							},
+							"msg": "+1"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 25,
+								"endLine": 25,
+								"startOffset": 3,
+								"endOffset": 5
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 28,
+								"endLine": 28,
+								"startOffset": 3,
+								"endOffset": 5
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 42,
+								"endLine": 42,
+								"startOffset": 6,
+								"endOffset": 11
+							},
+							"msg": "+1"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 45,
+								"endLine": 45,
+								"startOffset": 10,
+								"endOffset": 12
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 48,
+								"endLine": 48,
+								"startOffset": 10,
+								"endOffset": 12
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 51,
+								"endLine": 51,
+								"startOffset": 10,
+								"endOffset": 12
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 57,
+								"endLine": 57,
+								"startOffset": 6,
+								"endOffset": 8
+							},
+							"msg": "+1"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 61,
+								"endLine": 61,
+								"startOffset": 7,
+								"endOffset": 11
+							},
+							"msg": "+1"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 67,
+								"endLine": 67,
+								"startOffset": 2,
+								"endOffset": 4
+							},
+							"msg": "+1"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 77,
+								"endLine": 77,
+								"startOffset": 7,
+								"endOffset": 9
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 80,
+								"endLine": 80,
+								"startOffset": 7,
+								"endOffset": 12
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 100,
+								"endLine": 100,
+								"startOffset": 2,
+								"endOffset": 7
+							},
+							"msg": "+2 (incl 1 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 103,
+								"endLine": 103,
+								"startOffset": 4,
+								"endOffset": 6
+							},
+							"msg": "+3 (incl 2 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 106,
+								"endLine": 106,
+								"startOffset": 4,
+								"endOffset": 6
+							},
+							"msg": "+3 (incl 2 for nesting)"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 120,
+								"endLine": 120,
+								"startOffset": 1,
+								"endOffset": 5
+							},
+							"msg": "+1"
+						}
+					]
+				}
+			],
+			"status": "OPEN",
+			"message": "Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+			"effort": "18min",
+			"debt": "18min",
+			"author": "",
+			"tags": [
+				"brain-overload"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCG",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 33,
+			"hash": "a7db35b15a7ddf8454625b479ed479e3",
+			"textRange": {
+				"startLine": 33,
+				"endLine": 33,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCT",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 34,
+			"hash": "c4421110be1d1ae284d20cf9a7e0dc0b",
+			"textRange": {
+				"startLine": 34,
+				"endLine": 34,
+				"startOffset": 0,
+				"endOffset": 48
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB7",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 37,
+			"hash": "bfce3916f7d6fc76bc4c7dcbe68b28c1",
+			"textRange": {
+				"startLine": 37,
+				"endLine": 37,
+				"startOffset": 7,
+				"endOffset": 10
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB8",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 38,
+			"hash": "c40e857668ace578270f23178b5a1c50",
+			"textRange": {
+				"startLine": 38,
+				"endLine": 38,
+				"startOffset": 13,
+				"endOffset": 16
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB4",
+			"rule": "squid:S2095",
+			"severity": "BLOCKER",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 39,
+			"hash": "adcf05558f4353d51eda13de312c1110",
+			"textRange": {
+				"startLine": 39,
+				"endLine": 39,
+				"startOffset": 21,
+				"endOffset": 44
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Use try-with-resources or close this \"BufferedReader\" in a \"finally\" clause.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"denial-of-service",
+				"leak"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "BUG",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB9",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 39,
+			"hash": "adcf05558f4353d51eda13de312c1110",
+			"textRange": {
+				"startLine": 39,
+				"endLine": 39,
+				"startOffset": 17,
+				"endOffset": 20
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCH",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 44,
+			"hash": "ac08a7936e57cbee4312ffddab6c59e8",
+			"textRange": {
+				"startLine": 44,
+				"endLine": 44,
+				"startOffset": 10,
+				"endOffset": 20
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCI",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 58,
+			"hash": "7de86747acc8aa643677ed9b6cc879f3",
+			"textRange": {
+				"startLine": 58,
+				"endLine": 58,
+				"startOffset": 7,
+				"endOffset": 17
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCJ",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 62,
+			"hash": "e8c63093b1a7e457cdb877b171b66942",
+			"textRange": {
+				"startLine": 62,
+				"endLine": 62,
+				"startOffset": 7,
+				"endOffset": 17
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCK",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 64,
+			"hash": "de7544da2725ff293e0d4fa2ced3525c",
+			"textRange": {
+				"startLine": 64,
+				"endLine": 64,
+				"startOffset": 6,
+				"endOffset": 16
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCL",
+			"rule": "squid:S2245",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 71,
+			"hash": "034d1238458ecb50e227a7c34759dd67",
+			"textRange": {
+				"startLine": 71,
+				"endLine": 71,
+				"startOffset": 17,
+				"endOffset": 23
+			},
+			"flows": [],
+			"status": "TO_REVIEW",
+			"message": "Make sure that using this pseudorandom number generator is safe here.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"owasp-a3"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB-",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 74,
+			"hash": "16125aad7426f6be99b15454ed74aed1",
+			"textRange": {
+				"startLine": 74,
+				"endLine": 74,
+				"startOffset": 9,
+				"endOffset": 17
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB3",
+			"rule": "squid:S1192",
+			"severity": "CRITICAL",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 76,
+			"hash": "768375d365a2e73386a56d5623ee9850",
+			"textRange": {
+				"startLine": 76,
+				"endLine": 76,
+				"startOffset": 102,
+				"endOffset": 109
+			},
+			"flows": [
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 76,
+								"endLine": 76,
+								"startOffset": 102,
+								"endOffset": 109
+							},
+							"msg": "Duplication"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 97,
+								"endLine": 97,
+								"startOffset": 92,
+								"endOffset": 99
+							},
+							"msg": "Duplication"
+						}
+					]
+				},
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/ReadWriteFile.java",
+							"textRange": {
+								"startLine": 117,
+								"endLine": 117,
+								"startOffset": 38,
+								"endOffset": 45
+							},
+							"msg": "Duplication"
+						}
+					]
+				}
+			],
+			"status": "OPEN",
+			"message": "Define a constant instead of duplicating this literal \".java\" 3 times.",
+			"effort": "8min",
+			"debt": "8min",
+			"author": "",
+			"tags": [
+				"design"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCM",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 78,
+			"hash": "885919e1132e7daf2166bbfc29b5ea23",
+			"textRange": {
+				"startLine": 78,
+				"endLine": 78,
+				"startOffset": 9,
+				"endOffset": 19
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCN",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 81,
+			"hash": "3714fd04a24f9e5b786b1b77e7e28336",
+			"textRange": {
+				"startLine": 81,
+				"endLine": 81,
+				"startOffset": 7,
+				"endOffset": 17
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCD",
+			"rule": "squid:S1148",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 82,
+			"hash": "2dc1665d31b37f9aa7408939a0365027",
+			"textRange": {
+				"startLine": 82,
+				"endLine": 82,
+				"startOffset": 9,
+				"endOffset": 24
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Use a logger to log this exception.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cwe",
+				"error-handling",
+				"owasp-a3"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "VULNERABILITY",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCO",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 84,
+			"hash": "e752566eebc348540f4f15253e2b2cea",
+			"textRange": {
+				"startLine": 84,
+				"endLine": 84,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCP",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 91,
+			"hash": "d87c5af613d6db86860b94325d1ba4aa",
+			"textRange": {
+				"startLine": 91,
+				"endLine": 91,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB6",
+			"rule": "squid:S2095",
+			"severity": "BLOCKER",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 93,
+			"hash": "6110cfb3d35e994cda058783a4dbdbf3",
+			"textRange": {
+				"startLine": 93,
+				"endLine": 93,
+				"startOffset": 20,
+				"endOffset": 42
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Use try-with-resources or close this \"BufferedReader\" in a \"finally\" clause.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"denial-of-service",
+				"leak"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "BUG",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmB5",
+			"rule": "squid:S2095",
+			"severity": "BLOCKER",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 99,
+			"hash": "f96111cd696e4560cebb29eee449c9ba",
+			"textRange": {
+				"startLine": 99,
+				"endLine": 99,
+				"startOffset": 20,
+				"endOffset": 42
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Use try-with-resources or close this \"BufferedWriter\" in a \"finally\" clause.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"denial-of-service",
+				"leak"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "BUG",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCQ",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 102,
+			"hash": "1fe5e68eed5c8e9ec07c231fe9f990fe",
+			"textRange": {
+				"startLine": 102,
+				"endLine": 102,
+				"startOffset": 4,
+				"endOffset": 14
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCU",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 111,
+			"hash": "98b05c7a69d54734aa4bcba2a466b6bd",
+			"textRange": {
+				"startLine": 111,
+				"endLine": 111,
+				"startOffset": 0,
+				"endOffset": 56
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCR",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 117,
+			"hash": "d19155087e7059bc18341559baed8c30",
+			"textRange": {
+				"startLine": 117,
+				"endLine": 117,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Mf_PjhnSt0pmCS",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/ReadWriteFile.java",
+			"project": "my:abc",
+			"line": 122,
+			"hash": "098dd03b0b6b45af16d74e3f24995cb2",
+			"textRange": {
+				"startLine": 122,
+				"endLine": 122,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Ku_PjhnSt0pmBd",
+			"rule": "squid:S1197",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Solution.java",
+			"project": "my:abc",
+			"line": 5,
+			"hash": "0953e0d4f31c9d27b9514aa1718a19c8",
+			"textRange": {
+				"startLine": 5,
+				"endLine": 5,
+				"startOffset": 36,
+				"endOffset": 37
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Move the array designator from the variable to the type.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Ku_PjhnSt0pmBe",
+			"rule": "squid:S4829",
+			"component": "my:abc:src/abc/Solution.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "d78789b8d8494d2f9bad60483dfe479f",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 32,
+				"endOffset": 34
+			},
+			"flows": [],
+			"status": "TO_REVIEW",
+			"message": "Make sure that reading the standard input is safe here.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8Ku_PjhnSt0pmBc",
+			"rule": "squid:S2259",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Solution.java",
+			"project": "my:abc",
+			"line": 19,
+			"hash": "8a621c7567600574ecdc611c5ba3b2a1",
+			"textRange": {
+				"startLine": 19,
+				"endLine": 19,
+				"startOffset": 21,
+				"endOffset": 36
+			},
+			"flows": [
+				{
+					"locations": [
+						{
+							"component": "my:abc:src/abc/Solution.java",
+							"textRange": {
+								"startLine": 19,
+								"endLine": 19,
+								"startOffset": 21,
+								"endOffset": 36
+							},
+							"msg": "'rcvobj' is dereferenced."
+						},
+						{
+							"component": "my:abc:src/abc/Solution.java",
+							"textRange": {
+								"startLine": 18,
+								"endLine": 18,
+								"startOffset": 2,
+								"endOffset": 34
+							},
+							"msg": "Implies 'rcvobj' can be null."
+						},
+						{
+							"component": "my:abc:src/abc/Solution.java",
+							"textRange": {
+								"startLine": 18,
+								"endLine": 18,
+								"startOffset": 14,
+								"endOffset": 33
+							},
+							"msg": "'search()' can return null."
+						}
+					]
+				}
+			],
+			"status": "OPEN",
+			"message": "A \"NullPointerException\" could be thrown; \"rcvobj\" is nullable here.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "BUG",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Ku_PjhnSt0pmBf",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/Solution.java",
+			"project": "my:abc",
+			"line": 19,
+			"hash": "8a621c7567600574ecdc611c5ba3b2a1",
+			"textRange": {
+				"startLine": 19,
+				"endLine": 19,
+				"startOffset": 2,
+				"endOffset": 12
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8Ku_PjhnSt0pmBb",
+			"rule": "squid:S00101",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/Solution.java",
+			"project": "my:abc",
+			"line": 37,
+			"hash": "0e96621d282cd9581dfbf17a879a7d77",
+			"textRange": {
+				"startLine": 37,
+				"endLine": 37,
+				"startOffset": 6,
+				"endOffset": 10
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8K-_PjhnSt0pmBg",
+			"rule": "squid:S00101",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/genRandom.java",
+			"project": "my:abc",
+			"line": 5,
+			"hash": "0a06d1daa73f1175e50ed3ca47ad4110",
+			"textRange": {
+				"startLine": 5,
+				"endLine": 5,
+				"startOffset": 6,
+				"endOffset": 15
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8K-_PjhnSt0pmBi",
+			"rule": "squid:S1197",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/genRandom.java",
+			"project": "my:abc",
+			"line": 6,
+			"hash": "41968dbf5d291ae0328c04271922e099",
+			"textRange": {
+				"startLine": 6,
+				"endLine": 6,
+				"startOffset": 40,
+				"endOffset": 41
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Move the array designator from the variable to the type.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8K-_PjhnSt0pmBj",
+			"rule": "squid:S2245",
+			"component": "my:abc:src/abc/genRandom.java",
+			"project": "my:abc",
+			"line": 7,
+			"hash": "cfec3eb4dd9be9d60fbe5886a61179d3",
+			"textRange": {
+				"startLine": 7,
+				"endLine": 7,
+				"startOffset": 24,
+				"endOffset": 30
+			},
+			"flows": [],
+			"status": "TO_REVIEW",
+			"message": "Make sure that using this pseudorandom number generator is safe here.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe",
+				"owasp-a3"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "SECURITY_HOTSPOT",
+			"organization": "default-organization",
+			"fromHotspot": true
+		},
+		{
+			"key": "AXoqv8K-_PjhnSt0pmBh",
+			"rule": "squid:S00117",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/genRandom.java",
+			"project": "my:abc",
+			"line": 9,
+			"hash": "168c21f113430e3967bd5e02b3e58fda",
+			"textRange": {
+				"startLine": 9,
+				"endLine": 9,
+				"startOffset": 10,
+				"endOffset": 20
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+			"effort": "2min",
+			"debt": "2min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8K-_PjhnSt0pmBk",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/genRandom.java",
+			"project": "my:abc",
+			"line": 11,
+			"hash": "befab7f00b1cc402bfaf1dd8915b873b",
+			"textRange": {
+				"startLine": 11,
+				"endLine": 11,
+				"startOffset": 6,
+				"endOffset": 16
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBn",
+			"rule": "squid:S00101",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 13,
+			"hash": "0c8ba09d9333afe03c984ba8ad278f1c",
+			"textRange": {
+				"startLine": 13,
+				"endLine": 13,
+				"startOffset": 13,
+				"endOffset": 26
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"convention"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBl",
+			"rule": "squid:S1444",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 15,
+			"hash": "356a80a87766b699a6db518bd6b9bc2a",
+			"textRange": {
+				"startLine": 15,
+				"endLine": 15,
+				"startOffset": 25,
+				"endOffset": 31
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Make this \"public static driver\" field final",
+			"effort": "20min",
+			"debt": "20min",
+			"author": "",
+			"tags": [
+				"cert",
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "VULNERABILITY",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBm",
+			"rule": "squid:ClassVariableVisibilityCheck",
+			"severity": "MINOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 15,
+			"hash": "356a80a87766b699a6db518bd6b9bc2a",
+			"textRange": {
+				"startLine": 15,
+				"endLine": 15,
+				"startOffset": 25,
+				"endOffset": 31
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Make driver a static final constant or non-public and provide accessors if needed.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "VULNERABILITY",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBo",
+			"rule": "squid:S1135",
+			"severity": "INFO",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 18,
+			"hash": "36364ec9aa2f0995d283c1c6a92d2e5c",
+			"textRange": {
+				"startLine": 18,
+				"endLine": 18,
+				"startOffset": 0,
+				"endOffset": 36
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Complete the task associated to this TODO comment.",
+			"author": "",
+			"tags": [
+				"cwe"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBp",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 29,
+			"hash": "6862cca7118659f6da8b75a5d4cbfdf3",
+			"textRange": {
+				"startLine": 29,
+				"endLine": 29,
+				"startOffset": 3,
+				"endOffset": 13
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBq",
+			"rule": "squid:S106",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 31,
+			"hash": "bdc580418c9e2131f7e5e97678c1e0b2",
+			"textRange": {
+				"startLine": 31,
+				"endLine": 31,
+				"startOffset": 3,
+				"endOffset": 13
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "Replace this use of System.out or System.err by a logger.",
+			"effort": "10min",
+			"debt": "10min",
+			"author": "",
+			"tags": [
+				"bad-practice",
+				"cert"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBr",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 35,
+			"hash": "1eae3135d4604975dfd0ef8637525237",
+			"textRange": {
+				"startLine": 35,
+				"endLine": 35,
+				"startOffset": 0,
+				"endOffset": 19
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBs",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 40,
+			"hash": "9b3e6efeb072f6bb3eef6bcd519be093",
+			"textRange": {
+				"startLine": 40,
+				"endLine": 40,
+				"startOffset": 0,
+				"endOffset": 108
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBt",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 45,
+			"hash": "1f0e3c6d5519e4b38cf76f54415eb12d",
+			"textRange": {
+				"startLine": 45,
+				"endLine": 45,
+				"startOffset": 0,
+				"endOffset": 111
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBu",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 51,
+			"hash": "cca64204342383d7784072219e029078",
+			"textRange": {
+				"startLine": 51,
+				"endLine": 51,
+				"startOffset": 0,
+				"endOffset": 66
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBv",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 55,
+			"hash": "56519011e68b80bd5e252f51f9fc465e",
+			"textRange": {
+				"startLine": 55,
+				"endLine": 55,
+				"startOffset": 0,
+				"endOffset": 74
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBw",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 58,
+			"hash": "1650b2a23a5701ebc08fb1fff5cb77f6",
+			"textRange": {
+				"startLine": 58,
+				"endLine": 58,
+				"startOffset": 0,
+				"endOffset": 58
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBx",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 62,
+			"hash": "25f3e839b225bb2bdcc6e0ed76263127",
+			"textRange": {
+				"startLine": 62,
+				"endLine": 62,
+				"startOffset": 0,
+				"endOffset": 65
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBy",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 66,
+			"hash": "027c863a6e0b773a58948852c1d20181",
+			"textRange": {
+				"startLine": 66,
+				"endLine": 66,
+				"startOffset": 0,
+				"endOffset": 60
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmBz",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 70,
+			"hash": "790569bac346bd4c174fac09f049cbf2",
+			"textRange": {
+				"startLine": 70,
+				"endLine": 70,
+				"startOffset": 0,
+				"endOffset": 47
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmB0",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 81,
+			"hash": "7d6a8fd1402f0aa46093e9ba22fc2fa1",
+			"textRange": {
+				"startLine": 81,
+				"endLine": 81,
+				"startOffset": 0,
+				"endOffset": 80
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmB1",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 86,
+			"hash": "23f5850e49195ac418526787fe9c51b6",
+			"textRange": {
+				"startLine": 86,
+				"endLine": 86,
+				"startOffset": 0,
+				"endOffset": 60
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		},
+		{
+			"key": "AXoqv8LW_PjhnSt0pmB2",
+			"rule": "squid:CommentedOutCodeLine",
+			"severity": "MAJOR",
+			"component": "my:abc:src/abc/launchbrowser.java",
+			"project": "my:abc",
+			"line": 94,
+			"hash": "de3a21ee1b8a61f5947d0340d39f83f6",
+			"textRange": {
+				"startLine": 94,
+				"endLine": 94,
+				"startOffset": 0,
+				"endOffset": 61
+			},
+			"flows": [],
+			"status": "OPEN",
+			"message": "This block of commented-out lines of code should be removed.",
+			"effort": "5min",
+			"debt": "5min",
+			"author": "",
+			"tags": [
+				"unused"
+			],
+			"creationDate": "2021-06-21T00:15:47+0530",
+			"updateDate": "2021-06-21T00:15:47+0530",
+			"type": "CODE_SMELL",
+			"organization": "default-organization",
+			"fromHotspot": false
+		}
+	],
+	"components": [
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/Code2.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA-",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "Code2.java",
+			"longName": "src/abc/Code2.java",
+			"path": "src/abc/Code2.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/Ateeb_Upload_123.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA0",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "Ateeb_Upload_123.java",
+			"longName": "src/abc/Ateeb_Upload_123.java",
+			"path": "src/abc/Ateeb_Upload_123.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/Code1.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmAz",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "Code1.java",
+			"longName": "src/abc/Code1.java",
+			"path": "src/abc/Code1.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/MouseTrace.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA9",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "MouseTrace.java",
+			"longName": "src/abc/MouseTrace.java",
+			"path": "src/abc/MouseTrace.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc",
+			"uuid": "AXoqvq7YfBL1tH1XUP6u",
+			"enabled": true,
+			"qualifier": "TRK",
+			"name": "abc",
+			"longName": "abc"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/launchbrowser.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA6",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "launchbrowser.java",
+			"longName": "src/abc/launchbrowser.java",
+			"path": "src/abc/launchbrowser.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/genRandom.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA5",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "genRandom.java",
+			"longName": "src/abc/genRandom.java",
+			"path": "src/abc/genRandom.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/ReadWriteFile.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA8",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "ReadWriteFile.java",
+			"longName": "src/abc/ReadWriteFile.java",
+			"path": "src/abc/ReadWriteFile.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/Hal.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA2",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "Hal.java",
+			"longName": "src/abc/Hal.java",
+			"path": "src/abc/Hal.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/FileHandling.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA1",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "FileHandling.java",
+			"longName": "src/abc/FileHandling.java",
+			"path": "src/abc/FileHandling.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/Solution.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA4",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "Solution.java",
+			"longName": "src/abc/Solution.java",
+			"path": "src/abc/Solution.java"
+		},
+		{
+			"organization": "default-organization",
+			"key": "my:abc:src/abc/MousePtr.java",
+			"uuid": "AXoqv6HB_PjhnSt0pmA3",
+			"enabled": true,
+			"qualifier": "FIL",
+			"name": "MousePtr.java",
+			"longName": "src/abc/MousePtr.java",
+			"path": "src/abc/MousePtr.java"
+		}
+	],
+	"facets": []
+}

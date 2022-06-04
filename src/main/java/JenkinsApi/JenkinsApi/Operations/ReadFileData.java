@@ -13,59 +13,60 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import JenkinsApi.JenkinsApi.Model.*;
 
-
 public class ReadFileData {
-		
+
+	/*
+	 * standalone jar path :
+	 * "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes" STS editor
+	 * path: "src//main//resources//jenkinsAPIData.json"
+	 */
+	//servingDataPath initialization 1/2 - src//main//resources
+	static final String servingDataPath = ".//jenkinsAPIData_API.json";
+
 	public List<Jenkins> ReadData() {
 
-	    List<Jenkins> jenkinsDataList=new ArrayList();  
+		List<Jenkins> jenkinsDataList = new ArrayList();
 		Object obj;
-		
-		try {
-			
-			/*
-			 * standalone jar path : "C://Users//Dell//Desktop//jenkinsApi jar//BOOT-INF//classes"
-			 * STS editor path:	"src//main//resources//jenkinsAPIData.json"
-			 */
-			obj = new JSONParser().parse(new FileReader("src//main//resources//jenkinsAPIData_API.json"));
-			JSONObject jo_reader = (JSONObject) obj;
-		    JSONArray ja_reader = (JSONArray) jo_reader.get("jenkins");
-		    Iterator itr2 = ja_reader.iterator();
 
-		    while (itr2.hasNext()) 
-	        {
+		try {
+			// servable data mention 2/2
+			obj = new JSONParser().parse(new FileReader(servingDataPath));
+			JSONObject jo_reader = (JSONObject) obj;
+			JSONArray ja_reader = (JSONArray) jo_reader.get("jenkins");
+			Iterator itr2 = ja_reader.iterator();
+
+			while (itr2.hasNext()) {
 				Iterator<Map.Entry> itr1 = ((Map) itr2.next()).entrySet().iterator();
 
-				Jenkins jenkins=new Jenkins();
-					
+				Jenkins jenkins = new Jenkins();
+
 				while (itr1.hasNext()) {
-	                Map.Entry pair = itr1.next();
-	                
-	            	
-	            	   if(pair.getKey().toString().equalsIgnoreCase("Entity")) {
-	            		   jenkins.setEntity(pair.getValue().toString());
-		                }
-		                if(pair.getKey().toString().equalsIgnoreCase("Jar")) {
-							jenkins.setJar(pair.getValue().toString());
-		                }
-		                if(pair.getKey().toString().equalsIgnoreCase("Build")) {
-		                	jenkins.setBuild(pair.getValue().toString());
-		                }
-		                if(pair.getKey().toString().equalsIgnoreCase("User")) {
-							jenkins.setUser(pair.getValue().toString());
-		                }
-		                if(pair.getKey().toString().equalsIgnoreCase("Status")) {
-							jenkins.setStatus(pair.getValue().toString());
-		                }
-		                if(pair.getKey().toString().equalsIgnoreCase("url")) {
-							jenkins.setUrl(pair.getValue().toString());
-		                }
-					
-	            }
-				
+					Map.Entry pair = itr1.next();
+
+					if (pair.getKey().toString().equalsIgnoreCase("Entity")) {
+						jenkins.setEntity(pair.getValue().toString());
+					}
+					if (pair.getKey().toString().equalsIgnoreCase("Jar")) {
+						jenkins.setJar(pair.getValue().toString());
+					}
+					if (pair.getKey().toString().equalsIgnoreCase("Build")) {
+						jenkins.setBuild(pair.getValue().toString());
+					}
+					if (pair.getKey().toString().equalsIgnoreCase("User")) {
+						jenkins.setUser(pair.getValue().toString());
+					}
+					if (pair.getKey().toString().equalsIgnoreCase("Status")) {
+						jenkins.setStatus(pair.getValue().toString());
+					}
+					if (pair.getKey().toString().equalsIgnoreCase("url")) {
+						jenkins.setUrl(pair.getValue().toString());
+					}
+
+				}
+
 				jenkinsDataList.add(jenkins);
-				
-	        }
+
+			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -73,7 +74,7 @@ public class ReadFileData {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		
+
 		return jenkinsDataList;
-	}	
+	}
 }
